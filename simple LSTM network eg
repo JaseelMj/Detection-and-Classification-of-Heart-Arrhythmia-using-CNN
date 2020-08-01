@@ -1,0 +1,11 @@
+from.keras.layers import Bidirectional, LSTM
+
+model = Sequential()
+model.add(Bidirectional(LSTM(64, input_shape=())
+model.add(dropout(rate =0.25))
+model.add(dense(1, activation='sigmond'))
+model.compile (loss ='binary_crossentropy', optimizer = 'adam', metrics= ['accuracy'])
+
+
+
+model.fit(x_trainn_cnn[:10000],y_train[:10000]), batch size=32, epoch =1, verbose = 1)
